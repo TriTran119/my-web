@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Courses</title>
+    <link rel="stylesheet" href="lab6-style.css">
+</head>
+
+<body>
+    <div class="category-bar">
+        <div class="category active">Web Development</div>
+        <div class="category">JavaScript</div>
+        <div class="category">React JS</div>
+        <div class="category">Angular</div>
+        <div class="category">Java</div>
+        <div class="category">Android Development</div>
+        <div class="category">iOS Development</div>
+        <div class="category">CSS</div>
+    </div>
+
+    <div class="course-container">
+        <div class="course-card" onclick="showCourseDetails(this)">
+            <img src="images/angela-course.jpg" alt="Angela Yu Course">
+            <div class="course-info">
+                <h3>The Complete 2024 Web Development Bootcamp</h3>
+                <p>Dr. Angela Yu, Developer and Lead...</p>
+                <div class="rating">⭐ 4.7 (409,451)</div>
+                <div class="price">₫1,699,000</div>
+                <button class="bestseller">Bestseller</button>
+            </div>
+        </div>
+
+        <div class="course-card" onclick="showCourseDetails(this)">
+            <img src="images/colt-course.jpg" alt="Colt Steele Course">
+            <div class="course-info">
+                <h3>The Web Developer Bootcamp 2024</h3>
+                <p>Colt Steele</p>
+                <div class="rating">⭐ 4.7 (276,674)</div>
+                <div class="price">₫2,399,000</div>
+            </div>
+        </div>
+
+        <!-- Additional courses can be added in the same format -->
+    </div>
+
+    <div class="show-more">
+        <button>Show all Web Development courses</button>
+    </div>
+
+    <script src="lab6-script.js"></script>
+</body>
+
+</html>
